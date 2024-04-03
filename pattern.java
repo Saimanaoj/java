@@ -1,22 +1,15 @@
-mport java.util.*;
-import java.io.*;
 class pattern
 {
-public static void main(String []args)
+public static void main(String arg[])
 {
-Scanner sc=new Scanner(System.in);
-int i,j;
-int a=1;
-System.out.println("enter the number of rows");
-int n=sc.nextInt();
-for(i=1;i<=n;i++)
+int n=5;
+for(int i=1;i<=n;i++)
 {
-for(j=1;j<=i;j++)
+for(int j=1;j<=i;j++)
 {
-System.out.print(a*a+" ");
-a++;
- }
-System.out.print("\n");
+System.out.print("*");
+}
+System.out.println();
 }
 }
 }
